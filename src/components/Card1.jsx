@@ -4,7 +4,7 @@ import { SlCalender } from "react-icons/sl";
 
 function Card1() {
   return (
-    <div className="h-full w-full z-20 p-4">
+    <div className="h-full w-full z-20 p-4 bg-gray-50">
       <div className="flex flex-col h-full w-full justify-center bg-gray-50">
         <div className="flex flex-wrap gap-5 justify-center">
           <div className="w-full sm:w-[40vh] h-[30vh] shadow-lg bg-white rounded-lg p-4 sm:p-12">

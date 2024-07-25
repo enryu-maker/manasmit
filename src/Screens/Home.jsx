@@ -14,12 +14,12 @@ function Home() {
       <div id="home" className="w-full h-full z-0">
         <Caro />
       </div>
-      <div className="h-[20vh] md:mt-1 mt-40 w-full bg-gray-50 z-10">
+      <div className="h-[20vh] md:mt-1 mt-40 w-full z-10">
         <Card1 />
       </div>
       <div
         id="services"
-        className="w-full  md:h-screen h-[120vh] pt-20 mt-20"
+        className="w-full md:h-screen h-[120vh] pt-20 mt-20"
         style={{
           backgroundImage: `url(${bg})`,
           backgroundSize: "cover",
