@@ -1,6 +1,7 @@
 import React from "react";
 import { RiCustomerServiceLine } from "react-icons/ri";
 import { SlCalender } from "react-icons/sl";
+import { Link as ScrollLink } from "react-scroll";
 
 function Card1() {
   return (
@@ -15,16 +16,25 @@ function Card1() {
                 </span>
                 <div className="flex flex-col text-start">
                   <p className="text-md font-medium">Call us</p>
-                  <p className="text-lg font-semibold">+91 1234567890</p>
+                  <p className="text-lg font-semibold">
+                    <a
+                      href="tel:+919890257694"
+                      // className="text-md font-normal text-white"
+                    >
+                      +91 9890257694
+                    </a>
+                  </p>
                 </div>
               </div>
               <div>
                 <p>Get The Quality Care That You Deserve Immediately</p>
               </div>
               <div>
-                <button className="p-2 px-6 border-2 rounded-lg">
-                  Contact Us
-                </button>
+                <ScrollLink to="contact" smooth={true} duration={500}>
+                  <button className="p-2 px-6 border-2 rounded-lg">
+                    Contact Us
+                  </button>
+                </ScrollLink>
               </div>
             </div>
           </div>
@@ -51,8 +61,13 @@ function Card1() {
                     <div>
                       <p>Monday to Saturday</p>
                     </div>
-                    <div>
-                      <p>9am to 5pm</p>
+                    <div className="flex flex-col">
+                      <div>
+                        <p>9am to 3pm</p>
+                      </div>
+                      <div>
+                        <p>5am to 10pm</p>
+                      </div>
                     </div>
                   </div>
                   <hr />
