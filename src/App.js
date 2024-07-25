@@ -1,23 +1,19 @@
 import logo from "./logo.svg";
 import "./App.css";
-
+import Nav from "./components/Nav";
+import { Routes, Route } from "react-router-dom";
+import Home from "./Screens/Home";
+import Foter from "./components/Footer";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reldsfdsfdsfoad.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="overflow-hidden">
+      <Nav />
+      <div className="mt-12">
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
+      <Foter />
     </div>
   );
 }
