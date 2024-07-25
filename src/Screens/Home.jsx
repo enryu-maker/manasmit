@@ -7,10 +7,19 @@ import Count from "../components/Count";
 import Feedback from "../components/Feedback";
 import map from "../Images/map.jpg";
 import Contact from "../components/Contact";
+import { Helmet } from "react-helmet";
 
 function Home() {
   return (
     <div className="w-full h-full flex flex-col">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Manasmit Facial: The Finest Facial Workplace</title>
+        <meta
+          name="description"
+          content="Manasmit Facial offers a serene and welcoming environment, ensuring every client feels relaxed and cared for. Our state-of-the-art facility is equipped with the latest technology to provide top-tier skincare services."
+        />
+      </Helmet>
       <div id="home" className="w-full h-full z-0">
         <Caro />
       </div>

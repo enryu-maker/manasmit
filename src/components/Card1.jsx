@@ -66,7 +66,7 @@ function Card1() {
                         <p>9am to 3pm</p>
                       </div>
                       <div>
-                        <p>5am to 10pm</p>
+                        <p>5pm to 10pm</p>
                       </div>
                     </div>
                   </div>

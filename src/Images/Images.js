@@ -39,6 +39,10 @@ export const IMAGES = [
     img: require("./MICRONEEDLING.webp"),
     desc: "Microneedling is a minimally invasive procedure that uses fine needles to create tiny punctures in the skin. This process stimulates collagen and elastin production, helping to improve skin texture, reduce scars and fine lines, and give your skin a smoother, more youthful appearance.",
   },
+  {
+    img: require("./TATTOO_REMOVAL.jpg"),
+    desc: "At Manasmit Facial, we offer top-notch tattoo removal services using the latest laser technology to ensure safe, effective, and comfortable procedures. Our experienced professionals tailor each session to meet your unique needs, delivering outstanding results while minimizing skin damage and promoting quick healing. Say goodbye to unwanted tattoos and hello to clear, beautiful skin with our affordable and reliable tattoo removal solutions. ",
+  },
 ];
 
 // index.js
