@@ -1,6 +1,7 @@
 import React from "react";
 import { Link as ScrollLink } from "react-scroll";
-import logo from "../Images/logo.jpeg";
+import logo from "../Images/logo.png";
+import flogo from "../Images/Footer.png";
 
 function Foter() {
   return (
@@ -10,9 +11,6 @@ function Foter() {
           <div className="sm:flex sm:items-center sm:justify-between w-full justify-center items-center text-center">
             <a className="flex justify-center items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
               <img src={logo} className="h-8" alt="Logo" />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                Manasmit
-              </span>
             </a>
             <ul className="flex justify-center flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
               <li>
@@ -59,11 +57,7 @@ function Foter() {
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <span className="flex justify-center text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © 2021
-            <a href="https://www.nerdtech.in/" className="hover:underline">
-              NerdTech™
-            </a>
-            . All Rights Reserved.
+            <img src={flogo} className="w-fit h-20" />
           </span>
         </div>
       </footer>
