@@ -8,6 +8,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Poppins: ["Poppins"],
+        Web: ["Titillium+Web"],
+      },
       colors: {
         bluesomething: "#2C6DAB",
       },

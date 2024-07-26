@@ -6,7 +6,7 @@ import Home from "./Screens/Home";
 import Foter from "./components/Footer";
 function App() {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden font-Poppins">
       <Nav />
       <div className="mt-12">
         <Routes>
