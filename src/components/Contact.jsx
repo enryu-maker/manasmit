@@ -51,17 +51,19 @@ function Contact() {
             <div className="flex gap-5">
               <input
                 className="bg-gray-50 h-10 w-1/2 p-4 border-bluesomething rounded-md focus:border-[1px] focus:border-bluesomething"
-                placeholder="Name"
+                placeholder="Name*"
                 type="text"
                 name="name"
+                required
                 value={formData.name}
                 onChange={handleChange}
               />
               <input
                 className="bg-gray-50 h-10 w-1/2 p-4 border-bluesomething rounded-md focus:border-[1px] focus:border-bluesomething"
-                placeholder="Phone"
-                type="tel"
+                placeholder="Phone*"
+                type="number"
                 name="phone"
+                required
                 value={formData.phone}
                 onChange={handleChange}
               />
@@ -69,9 +71,10 @@ function Contact() {
             <div className="flex gap-5">
               <input
                 className="bg-gray-50 h-10 w-1/2 p-4 border-bluesomething rounded-md focus:border-[1px] focus:border-bluesomething"
-                placeholder="Email"
+                placeholder="Email*"
                 type="email"
                 name="email"
+                required
                 value={formData.email}
                 onChange={handleChange}
               />
@@ -87,8 +90,9 @@ function Contact() {
             <div className="w-full h-fit">
               <textarea
                 className="bg-gray-50 h-32 w-full p-4 border-bluesomething rounded-md focus:border-[1px] focus:border-bluesomething"
-                placeholder="Message"
+                placeholder="Message*"
                 name="message"
+                required
                 value={formData.message}
                 onChange={handleChange}
               />
