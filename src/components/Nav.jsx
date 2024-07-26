@@ -58,7 +58,7 @@ export default function Nav() {
                     to={item.href}
                     smooth={true}
                     duration={500}
-                    className="text-black rounded-md px-3 py-2 text-md font-medium"
+                    className="text-black rounded-md cursor-pointer px-3 py-2 text-md font-medium"
                     activeClass="text-blue-500"
                     spy={true}
                   >

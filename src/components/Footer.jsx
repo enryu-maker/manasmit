@@ -75,7 +75,11 @@ function Foter() {
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <span className="flex justify-center text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            <img src={flogo} className="w-fit h-20" />
+            {/* <img src={flogo} className="w-fit h-20" /> */}
+            <p className="font-semibold text-xl ">
+              Made with Love by
+              <a href="http://nerdtech.in">&nbsp;NerdTech!!!</a>
+            </p>
           </span>
         </div>
       </footer>
